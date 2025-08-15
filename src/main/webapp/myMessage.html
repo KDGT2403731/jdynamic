@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>メッセージ送信</title>
+</head>
+<body>
+	<h1>メッセージを送信してください</h1>
+	<form action="/jdynamic/MyMessageServlet" method="post">
+		メッセージ: <input type="text" name="message"><br>
+		サイズ: 
+		<input type="radio" name="size" value="large">大
+		<input type="radio" name="size" value="medium">中
+		<input type="radio" name="size" value="small">小
+		<br>
+		<input type="submit" value="送信">
+	</form>
+</body>
+</html>
